@@ -1,4 +1,4 @@
-team_name: TeamA
+team_name: Team_A
 model_name: ModelA
 model_abbr: teamA-modelA
 model_contributors: A, B
