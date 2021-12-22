@@ -91,7 +91,7 @@
 "2021-12-13","4 wk ahead inc flu hosp","2022-01-08","US","quantile",0.95,3459
 "2021-12-13","4 wk ahead inc flu hosp","2022-01-08","US","quantile",0.975,3980
 "2021-12-13","4 wk ahead inc flu hosp","2022-01-08","US","quantile",0.99,4608
-"2021-12-13","1 wk ahead inc flu hosp","2021-12-18","US","point",NA,1338
+"2021-12-13","1 wk ahead inc flu hosp","2021-12-18","US","point",NA,1340
 "2021-12-13","2 wk ahead inc flu hosp","2021-12-25","US","point",NA,1337
 "2021-12-13","3 wk ahead inc flu hosp","2022-01-01","US","point",NA,1336
 "2021-12-13","4 wk ahead inc flu hosp","2022-01-08","US","point",NA,1340
