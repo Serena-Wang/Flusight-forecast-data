@@ -1,5 +1,5 @@
 "forecast_date","target","target_end_date","location","type","quantile","value"
-"2021-12-13","1 wk ahead inc flu hosp","2021-12-18","US","quantile",0.01,448
+"2021-12-13","1 wk ahead inc flu hosp","2021-12-18","US","quantile",0.01,500
 "2021-12-13","1 wk ahead inc flu hosp","2021-12-18","US","quantile",0.025,550
 "2021-12-13","1 wk ahead inc flu hosp","2021-12-18","US","quantile",0.05,651
 "2021-12-13","1 wk ahead inc flu hosp","2021-12-18","US","quantile",0.1,781
