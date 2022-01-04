@@ -36,6 +36,9 @@ jobs:
     - name: Check python dependencies
       run: pipenv run pip list
       working-directory: ./covid19-forecast-hub-validations
+    - name: Pipenv graph
+      run: pipenv graph
+      working-directory: ./covid19-forecast-hub-validations
     - name: Validations output
       working-directory: ./covid19-forecast-hub-validations
       run: pipenv run python3 main.py --project_dir ${{ github.workspace }}
