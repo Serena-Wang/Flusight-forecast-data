@@ -38,6 +38,6 @@ jobs:
       working-directory: ./covid19-forecast-hub-validations
     - name: Validations output
       working-directory: ./covid19-forecast-hub-validations
-      run: python main.py --project_dir ${{ github.workspace }}
+      run: python3 main.py --project_dir ${{ github.workspace }}
       env:
         GH_TOKEN: ${{ github.token }}
