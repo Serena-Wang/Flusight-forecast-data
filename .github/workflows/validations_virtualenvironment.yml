@@ -39,8 +39,13 @@ jobs:
     - name: Pipenv graph
       run: pipenv graph
       working-directory: ./covid19-forecast-hub-validations
+    - name: Pipenv which python
+      run: |
+        pipenv run which python
+        pipenv run which pip
+      working-directory: ./covid19-forecast-hub-validations
     - name: Validations output
       working-directory: ./covid19-forecast-hub-validations
-      run: pipenv run python3 main.py --project_dir ${{ github.workspace }}
+      run: pipenv run python main.py --project_dir ${{ github.workspace }}
       env:
         GH_TOKEN: ${{ github.token }}
