@@ -33,8 +33,10 @@ jobs:
     - name: Install python dependencies 
       run: pipenv install --dev --skip-lock --verbose
       working-directory: ./covid19-forecast-hub-validations
-    - name: Install zoltpy 
-      run: pipenv install -e git+https://github.com/reichlab/zoltpy.git@issue_57#egg=zoltpy
+    - name: Install dependencies on github repos
+      run: |
+        pipenv install -e git+https://github.com/reichlab/zoltpy.git@issue_57#egg=zoltpy
+        pipenv install -e git+https://github.com/hannanabdul55/pykwalify.git#egg=pykwalify
       working-directory: ./covid19-forecast-hub-validations
     - name: Check python dependencies
       run: pipenv run pip list
