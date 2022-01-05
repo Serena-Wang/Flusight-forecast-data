@@ -18,8 +18,8 @@ jobs:
     - name: Checkout Validation Repo
       uses: actions/checkout@v2
       with:
-        repository: 'reichlab/covid19-forecast-hub-validations'
-        ref: 'config'
+        repository: 'Serena-Wang/covid19-forecast-hub-validations'
+        ref: 'passed_validation_tag'
         path: 'covid19-forecast-hub-validations'
 
     - name: Setup Python
