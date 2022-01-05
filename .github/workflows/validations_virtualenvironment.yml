@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: 'Serena-Wang/covid19-forecast-hub-validations'
-        ref: 'passed_validation_tag'
+        ref: 'submission_time_comparison'
         path: 'covid19-forecast-hub-validations'
 
     - name: Setup Python
