@@ -95,8 +95,6 @@
     }
   ],
   "forecast_dates": [
-    "2021-12-13",
-    "2021-12-20",
     "2022-01-03", 
     "2022-01-10",
     "2022-01-17",
@@ -119,5 +117,7 @@
     "2022-05-16"
   ],
   "updates_allowed": false,
-  "automerge_on_passed_validation": false
+  "automerge_on_passed_validation": false,
+  "metadata_format": "https://github.com/cdcepi/Flusight-forecast-data/blob/master/data-forecasts/METADATA.md",
+  "forecast_format": "https://github.com/cdcepi/Flusight-forecast-data/tree/master/data-forecasts#forecast-file-format" 
 }
