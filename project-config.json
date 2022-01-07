@@ -118,6 +118,5 @@
   ],
   "updates_allowed": false,
   "automerge_on_passed_validation": false,
-  "metadata_format": "https://github.com/cdcepi/Flusight-forecast-data/blob/master/data-forecasts/METADATA.md",
-  "forecast_format": "https://github.com/cdcepi/Flusight-forecast-data/tree/master/data-forecasts#forecast-file-format" 
+  "submission_formatting_instruction": "https://github.com/cdcepi/Flusight-forecast-data/tree/master/data-forecasts#data-formatting"
 }
